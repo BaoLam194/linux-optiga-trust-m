@@ -209,3 +209,10 @@ $(LIBOBJ): %.o: %.c $(INCSRC)
 	@echo "+++++++ Generating lib object: $< "
 	@$(CC) $(CFLAGS) $< -o $@
 
+$(PROVOBJ): %.o: %.c $(INCSRC)
+	@echo "+++++++ Generating provider object: $< "
+	@$(CC) $(CFLAGS) $< -o $@
+
+$(APPOBJ): %.o: %.c $(INCSRC)
+	@echo "+++++++ Generating app object: $< "
+	@$(CC) $(CFLAGS) $< -o $@
