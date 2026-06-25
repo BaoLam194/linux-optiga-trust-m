@@ -59,7 +59,7 @@ LIBDIR += $(TF_PSA_DIR)/core
 LIBDIR += $(TF_PSA_DIR)/platform
 LIBDIR += $(TF_PSA_DIR)/utilities
 LIBDIR += $(TF_PSA_DIR)/extras
-LIBDIR += $(TF_PSA_DIR)/builtin/src
+LIBDIR += $(TF_PSA_DIR)/drivers/builtin/src
 endif
 
 
